@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ReactiveMaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ReactiveMaui"
+    xmlns:vm="clr-namespace:ReactiveMaui.ViewModels"
+    Title="ReactiveMaui">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout x:DataType="vm:ShellViewModel"
+                             HeightRequest="300"
+                             VerticalOptions="Center"
+                             Padding="0,30"
+                             Spacing="30">
+
+            <Label VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   Text="{Binding ScoreMessage}" />
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home">
+
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+</Shell>

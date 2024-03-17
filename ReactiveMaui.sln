@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveMaui", "ReactiveMaui\ReactiveMaui.csproj", "{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6EDEEF-34CF-4D33-BBF6-422A6C951FBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4DCF82E-BB09-4F51-9A5C-FA29AD8DF18C}
+	EndGlobalSection
+EndGlobal
